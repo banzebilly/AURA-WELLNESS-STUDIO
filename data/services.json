@@ -1,0 +1,159 @@
+{
+  "services": [
+    {
+      "category": "Massage",
+      "tagline": "Slow, intentional bodywork.",
+      "image": "images/massage-a.png",
+      "imageAlt": "Massage therapy treatment at Billy Aura Wellness Studio",
+      "items": [
+        {
+          "name": "Signature Swedish Massage",
+          "duration": "60 min",
+          "description": "Full-body relief with warm oil and slow, grounding pressure.",
+          "price": 300
+        },
+        {
+          "name": "Deep Tissue including",
+          "duration": "75 min",
+          "description": "Focused release for tight shoulders, hips, and lower back.",
+          "price": 350
+        },
+        {
+          "name": "Hot Stone Ritual",
+          "duration": "90 min",
+          "description": "Basalt stones and aromatic oil — the closest thing to stillness.",
+          "price": 400
+        },
+        {
+          "name": "Indian Head Massage",
+          "duration": "20 min",
+          "description": "Relieves tension, improves circulation, and helps reduce stress and insomnia.",
+          "price": 200
+        }
+      ]
+    },
+    {
+      "category": "Facials",
+      "tagline": "Skin, treated with respect.",
+      "image": "images/facial-3.webp",
+      "imageAlt": "Facial treatment at Billy Aura Wellness Studio",
+      "items": [
+        {
+          "name": "Glow Facial",
+          "duration": "40 min",
+          "description": "Cleanse, exfoliate, mask, massage — a reset for tired skin.",
+          "price": 300
+        },
+        {
+          "name": "Clarifying Facial",
+          "duration": "60 min",
+          "description": "Gentle extractions and calming actives for congested skin.",
+          "price": 130
+        },
+        {
+          "name": "Lumière Signature",
+          "duration": "90 min",
+          "description": "Our most complete ritual — LED, lymphatic massage, and a bespoke mask.",
+          "price": 450
+        }
+      ]
+    },
+    {
+      "category": "Nails",
+      "tagline": "Clean shapes, quiet polish.",
+      "image": "images/nail-12.webp",
+      "imageAlt": "Nail treatment at Billy Aura Wellness Studio",
+      "items": [
+        {
+          "name": "Gel OVerlay",
+          "duration": "40 min",
+          "description": "Shape, cuticle care, Acrelic and Gel.",
+          "price": 130
+        },
+        {
+          "name": "Gel Manicure",
+          "duration": "30 min",
+          "description": "Long-wear color with a soft, glossy finish.",
+          "price": 100
+        },
+        {
+          "name": " Pedicure",
+          "duration": "30 min",
+          "description": " massage, and Gel.",
+          "price": 100
+        },
+        {
+          "name": "Signature Full Set",
+          
+          "description": "Premium nail extensions with acrylic gel polish.",
+          "price": 150 
+        },
+        {
+          "name": "Signature Full Set",
+          
+          "description": "Premium nail extensions with acrylic gel polish including nail art.",
+          "price": 180 
+        },
+        {
+          "name": "Signature Full Set",
+          
+          "description": "Premium nail extensions with acrylic gel polish Bridal set.",
+          "price": 200 
+        }
+      ]
+    },
+    {
+      "category": "Waxing",
+      "tagline": "Efficient, kind, precise.",
+      "image": "images/wax-a.png",
+      "imageAlt": "Waxing treatment at Billy Aura Wellness Studio",
+      "items": [
+       
+        {
+          "name": "Lip or Chin",
+          "duration": "10 min",
+          "description": "Quick, careful, quietly done.",
+          "price": 50
+        },
+        {
+          "name": "Full Leg",
+          "duration": "30 min",
+          "description": "Smooth from ankle to thigh, with a soothing finish.",
+          "price": 120
+        },
+        {
+          "name": "Underarm",
+          "duration": "15 min",
+          "description": "Fast and gentle, with cooling aftercare.",
+          "price": 50
+        }
+      ]
+    },
+    {
+      "category": "Lashes",
+      "tagline": "Yours, only more luminous.",
+      "image": "images/billy-eylash.webp",
+      "imageAlt": "Eyelash extension treatment at Billy Aura Wellness Studio",
+      "items": [
+        {
+          "name": "Classic Lash Set",
+          "duration": "90 min",
+          "description": "One extension per natural lash — soft and everyday.",
+          "price": 150
+        },
+        {
+          "name": "Hybrid Set",
+          "duration": "120 min",
+          "description": "A blend of classic and volume for gentle drama.",
+          "price": 185
+        },
+        {
+          "name": "Lash Lift & Tint",
+          "duration": "60 min",
+          "description": "A subtle curl and depth without extensions.",
+          "price": 95
+        }
+      ]
+    }
+  ]
+}

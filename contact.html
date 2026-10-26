@@ -1,0 +1,370 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Billy Aura Wellness Studio</title>
+
+    <meta name="description"
+        content="Billy Aura Wellness Studio offers professional massage therapy, facials, waxing, nail care, and eyelash extension services in a relaxing and welcoming environment.">
+
+    <meta name="author" content="Mulopwe Banze Billy">
+
+    <meta name="keywords"
+        content="massage, facial, spa, wellness, nails, waxing, eyelash extensions, beauty salon, Billy Aura Wellness Studio">
+
+    <meta name="theme-color" content="#C8A96A">
+
+    <!-- Favicon -->
+    <link rel="icon" href="images/logo.png" type="image/png">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <!-- <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"> -->
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles/aura.css">
+    <link rel="stylesheet" href="styles/aura-small.css">
+
+    
+    <script src="scripts/aura.mjs" type="module"></script>
+    <script src="scripts/form-action.js" defer></script>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+
+        <div class="logo">
+            <a href="index.html">
+                <img
+                    src="images/logo-1.webp"
+                    alt="Billy Aura Wellness Studio Logo"
+                    width="220"
+                    height="130">
+            </a>
+        </div>
+
+        <!-- Mobile menu button -->
+        <div class="button">
+            <button id="menu" aria-label="Open navigation menu"></button>
+        </div>
+
+       
+
+        <!-- Main navigation -->
+        <nav class="navigation">
+            <a href="index.html">Home</a>
+            <a href="services.html">Services</a>
+
+              <a href="shop.html"><span>Shop</span></a>
+            <a href="contact.html">Contact</a>
+        </nav>
+
+    </header>
+
+    <!-- Main content -->
+    <main class="container">
+
+        <section class="hero">
+
+          
+
+            <div class="hero-content">
+
+                <h4 class="makeup">We'd love to hear from you</h4>
+
+                <h1>Your time to unwind starts here</h1>
+
+                <p>
+                    Whether you are booking a treatment or simply have a question,
+                    we are here to help. Send us a message and we'll get back to you.
+                </p>
+
+            </div>
+
+        </section>
+        <!-- Contact section -->
+        <section class="contact">
+
+            <!-- Contact information -->
+            <div class="contact-info">
+
+                <img
+                    src="images/aura.png"
+                    alt="Relaxing massage room at Billy Aura Wellness Studio"
+                    width="500"
+                    height="300"
+                    loading="lazy">
+
+                <div class="studio-addr">
+
+                    <h4>Opening Hours</h4>
+
+                    
+
+                    <div class="hours">
+                        <p>Monday - Saturday</p>
+                        <p>7:00 AM - 10:00 PM</p>
+                    </div>
+
+                    <div class="hours">
+                        <p>Sunday</p>
+                        <p>9:00 AM - 6:00 PM</p>
+                    </div>
+
+                   
+
+                </div>
+
+                <div class="studio-addr b">
+
+                    <h4>Studio</h4>
+
+                    <h3>
+                        1003 Polly Street<br>
+                        Hillbrow, Johannesburg
+                    </h3>
+
+                </div>
+
+                <div class="studio-addr b s">
+
+                    <h4>Reach Us</h4>
+
+                    <h5>
+                        Phone:
+                        <span>+27 83 599 9310</span>
+                    </h5>
+
+                    <h5>
+                        Email:
+                        <span>bbanze49@gmail.com</span>
+                    </h5>
+
+                </div>
+
+            </div>
+
+            <!-- Appointment form -->
+            <div class="form-content">
+
+                <h3>Request an Appointment</h3>
+
+                <form
+                    id="appointmentForm"
+                    method="get"
+                    action="form-action.html">
+
+                    <div class="user-grid">
+
+                        <label for="firstName">
+                            First Name *
+                            <input
+                                type="text"
+                                id="firstName"
+                                name="firstName"
+                                autocomplete="given-name"
+                                required>
+                        </label>
+
+                        <label for="email">
+                            Email Address *
+                            <input
+                                type="email"
+                                id="email"
+                                name="email"
+                                autocomplete="email"
+                                required>
+                        </label>
+
+                        <label for="phone">
+                            Phone Number *
+                            <input
+                                type="tel"
+                                id="phone"
+                                name="phone"
+                                autocomplete="tel"
+                                placeholder="+27 82 123 4567"
+                                required>
+                        </label>
+
+                        <label for="service">Service *
+
+                            <select id="services" name="service" required>
+                                <option value="" disabled selected>Select a Service</option>
+                                <option value="massage">Massage</option>
+                                <option value="facial">Facial</option>
+                                <option value="nails">Nails</option>
+                                <option value="waxing">Waxing</option>
+                                <option value="eyelash">Eyelash Extensions</option>
+                            </select>
+                        </label>
+
+                        <label for="date">
+                            Preferred Date *
+
+                            <input
+                                type="date"
+                                id="date"
+                                name="date"
+                                required>
+                        </label>
+
+                        <label for="time">
+                            Preferred Time *
+
+                            <input
+                                type="time"
+                                id="time"
+                                name="time"
+                                required>
+                        </label>
+
+                        <label for="notes" class="full">
+                            Anything We Should Know?
+
+                            <textarea
+                                id="notes"
+                                name="notes"
+                                rows="6"
+                                placeholder="First visit, skin concerns, occasion, allergies..."></textarea>
+                        </label>
+
+                        <button class="full" type="submit">
+                            Make Appointment
+                        </button>
+
+                    </div>
+
+                </form>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+
+        <div class="info">
+
+            <div class="main">
+                <p>Wellness Studio</p>
+                <p>Relax • Refresh • Renew</p>
+            </div>
+
+            <div class="main">
+
+                <h4>Quick Links</h4>
+
+                <a href="index.html">Home</a>
+                <a href="services.html">Services</a>
+                <a href="contact.html">Contact</a>
+
+                <!-- WDD231 project video -->
+                <a
+                    href="https://www.youtube.com/watch?v=FGp1oBrSrGM&t=29s"
+                    target="_blank"
+                    rel="noopener">
+                    Project Video 
+                </a>
+
+            </div>
+
+            <div class="main">
+
+                <h4>Visit Us</h4>
+
+                <p>Johannesburg</p>
+                <p>+27 83 599 9310</p>
+
+            </div>
+
+            <div class="main">
+
+                <h4>Business Hours</h4>
+
+                <p>
+                    Mon-Fri
+                    <span>9:00 AM - 6:00 PM</span>
+                </p>
+
+                <p>
+                    Sat
+                    <span>9:00 AM - 4:00 PM</span>
+                </p>
+
+                <p>
+                    Sun
+                    <span>Closed</span>
+                </p>
+
+            </div>
+
+        </div>
+
+        <!-- Social media links -->
+        <div class="media">
+
+            <a href="#" aria-label="Facebook">
+                <img
+                    src="images/facebook.svg"
+                    alt="Facebook icon"
+                    width="30"
+                    height="30"
+                    loading="lazy">
+            </a>
+
+            <a href="#" aria-label="Instagram">
+                <img
+                    src="images/instagram.svg"
+                    alt="Instagram icon"
+                    width="30"
+                    height="30"
+                    loading="lazy">
+            </a>
+
+            <a href="#" aria-label="TikTok">
+                <img
+                    src="images/tiktok.svg"
+                    alt="TikTok icon"
+                    width="30"
+                    height="30"
+                    loading="lazy">
+            </a>
+
+        </div>
+
+        <!-- Copyright information -->
+        <div class="right">
+
+            <p>
+                &copy;
+                <span id="currentyear"></span>
+                Mulopwe Banze Billy |
+                South Africa |
+                Billy Aura Wellness Studio.
+                All rights reserved.
+            </p>
+
+            <p id="lastModified"></p>
+
+        </div>
+
+    </footer>
+
+</body>
+</html>

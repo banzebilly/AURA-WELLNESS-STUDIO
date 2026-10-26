@@ -1,0 +1,1043 @@
+
+/* ==========================================================
+   TABLETS & SMALL LAPTOPS (992px)
+========================================================== */
+
+@media screen and (max-width: 992px) {
+
+
+      /* =========================
+       GLOBAL
+    ========================= */
+
+    html {
+        overflow-x: hidden;
+    }
+
+    body {
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    main {
+        width: 100%;
+    }
+
+    /* ---------- Header ---------- */
+
+  
+
+    header {
+        padding: 0 var(--space-4);
+    }
+
+    .logo {
+        width: 180px;
+    }
+
+    nav a {
+        font-size: var(--space-3);
+        padding: var(--space-3);
+        margin-right: .5rem;
+    }
+
+    /* ---------- Hero ---------- */
+
+    .hero {
+        min-height: 55vh;
+    }
+
+    .hero-content {
+        padding: var(--space-16) var(--space-8);
+    }
+
+    .hero-content h1 {
+        font-size: 2.6rem;
+    }
+
+    .hero-content p {
+        font-size: 1.1rem;
+    }
+
+    .btn{
+        font-size: var(--font-size-xs);
+    }
+
+
+    /* about us section  */
+
+   .about-us {
+        min-height: auto;
+        padding: var(--space-12) var(--space-6);
+    }
+
+    .about-us .about-page {
+        grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+        gap: var(--space-6);
+    }
+
+    
+
+    .about-us .about-page .about-image {
+        max-width: 100%;
+        padding-bottom: 0;
+    }
+
+    .about-us .about-page .about-image img:first-child {
+        width: 100%;
+        height: 450px;
+    }
+
+    
+
+    .about-us .about-page .about-image img:nth-child(2) {
+        display: none;
+    }
+
+    
+
+    .about-page .main-contents {
+        padding-left: 0;
+    }
+
+    .about-page .main-contents h2 {
+        max-width: 100%;
+    }
+
+    /* ---------- Services ---------- */
+
+    .short-menu-section {
+        width: 100%;
+        padding: var(--space-12) var(--space-6);
+    }
+
+    .short-menu-section .short-contaner{
+        width: 100%;
+    }
+    .short-container figure:first-child {
+    grid-column: span 1;
+
+}
+
+
+    
+
+    
+
+    /* ---------- About ---------- */
+
+    .about {
+        padding: var(--space-16) var(--space-5);
+    }
+
+    .about .about-data {
+        gap: var(--space-8);
+    }
+
+    .about .story-img img {
+        height: 450px;
+    }
+
+    /* ---------- Mission ---------- */
+
+    .mission {
+        min-height: 520px;
+    }
+
+    .mission .objective {
+        padding: var(--space-4);
+    }
+
+ 
+
+    /* ---------- Team ---------- */
+
+    .team-info {
+        padding: var(--space-16) var(--space-8);
+    }
+
+    .team-info .team-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* ---------- Services Page ---------- */
+
+    .services-menu {
+        padding: var(--space-16) var(--space-8);
+    }
+
+    .services-menu .card-section {
+        grid-template-columns: repeat(2, 1fr);
+        gap: var(--space-8);
+    }
+
+    .services-menu .service-img {
+        margin: 0;
+    }
+
+    .services-menu .service-img img {
+        height: 350px;
+    }
+
+    .services-menu .info .inner-data {
+        padding-right: 0;
+    }
+
+    /* ---------- Book ---------- */
+
+    .book {
+        padding: var(--space-16) var(--space-8);
+    }
+
+    /* ---------- Gallery ---------- */
+
+    .gallery {
+        padding: var(--space-16) var(--space-4);
+    }
+
+    .gallery-btn {
+        gap: var(--space-4);
+        flex-wrap: wrap;
+        
+        padding: var(--space-4);
+    }
+    .gallery-btn .btn{
+       font-size: var(--font-size-xs);
+    }
+
+    .grid-gallery {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .gallery-img img {
+        height: 320px;
+    }
+
+    /* ---------- Contact ---------- */
+
+    .contact {
+        width: 100%;
+        grid-template-columns:1fr;
+    }
+
+    .contact .contact-info {
+        width: 100%;
+        padding-right: var(--space-4);
+        margin: 2rem 1rem;
+    }
+
+    .form-content {
+        width: 100%;
+        margin: var(--space-4) auto;
+    }
+
+    .user-grid {
+        grid-template-columns: 1fr;
+    }
+    
+
+    /* ---------- Footer ---------- */
+
+    footer .info {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: var(--space-4);
+        align-items: start;
+    }
+
+}
+
+
+/* ==========================================================
+   MOBILE DEVICES (768px)
+========================================================== */
+
+@media screen and (max-width:768px){
+
+      /* =========================
+       GLOBAL
+    ========================= */
+
+    html {
+        overflow-x: hidden;
+    }
+
+    body {
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    main {
+        width: 100%;
+    }
+
+    /* ---------- General ---------- */
+
+    h1{
+        font-size: var(--font-size-4xl);
+    }
+
+    h2{
+        font-size:var(--font-size-3xl);
+    }
+
+    h3{
+        font-size:var(--font-size-2xl);
+    }
+
+    section{
+        padding:var(--space-16) var(--space-4);
+    }
+
+    /* ---------- Header ---------- */
+
+    header{
+        grid-template-columns:1fr auto;
+        padding:var(--space-3);
+    }
+
+    .logo{
+        width:150px;
+        padding-left:0;
+    }
+
+    .button{
+        display:block;
+    }
+
+    #menu{
+        border:none;
+        background:none;
+        font-size:var(--font-size-3xl);
+        cursor:pointer;
+        color:var(--primary);
+    }
+
+    nav{
+        display:none;
+        grid-column:1/-1;
+        flex-direction:column;
+        background:var(--section-bg);
+        width:100%;
+        border-top:1px solid var(--border);
+        padding-bottom: var(--space-6);
+    }
+    nav a:last-child {
+     text-align: center;
+
+    }
+
+    .navigation.open{
+        display:flex;
+    }
+
+    nav a{
+        width:100%;
+        margin:0;
+        padding:var(--space-4);
+        text-align:left;
+        border-bottom:1px solid var(--border);
+    }
+
+    /* ---------- Hero ---------- */
+
+   .hero {
+    width: 100%;
+    height: 80vh;
+    min-height: 650px;
+
+    background-image:
+        linear-gradient(
+            rgba(6, 29, 64, 0.65),
+            rgba(1, 20, 40, 0.70)
+        ),
+        url("../images/billy-hotstone.webp");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-self: start;
+}
+
+    
+
+    .hero-content{
+        padding:var(--space-8) var(--space-4);
+    }
+
+    .hero-content h1{
+        font-size:var(--space-8);
+    }
+
+    .hero-content p{
+        font-size:var(--font-size-base);
+        padding-bottom:2rem;
+    }
+    .btn{
+        font-size: var(--font-size-xs);
+    }
+
+
+      
+      .about-us {
+        min-height: auto;
+        padding: var(--space-10) var(--space-4);
+    }
+
+    .about-us .about-page {
+        grid-template-columns: minmax(0, 1fr);
+        gap: var(--space-6);
+    }
+
+   
+
+    .about-us .about-page .about-image {
+        width: 100%;
+        max-width: 500px;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .about-us .about-page .about-image img:first-child {
+        display: block;
+        width: 100%;
+        height: 400px;
+        object-fit: cover;
+    }
+
+
+    .about-us .about-page .about-image img:nth-child(2) {
+        display: none;
+    }
+
+   
+
+    .about-page .main-contents {
+        width: 100%;
+        padding: 0;
+    }
+
+    .about-page .main-contents h2 {
+        max-width: 100%;
+    }
+
+    .about-page .main-contents p {
+        padding: var(--space-3) 0;
+    }
+  
+   
+   
+
+    /* ---------- Services ---------- */
+      .short-menu-section {
+        width: 100%;
+        padding: var(--space-12) var(--space-6);
+    }
+
+    .short-menu-section .short-contaner{
+        width: 100%;
+    }
+    .short-container figure:first-child {
+    grid-column: span 1;
+
+    }
+     
+
+    /* ---------- About ---------- */
+
+    .about .about-data{
+        grid-template-columns:1fr;
+    }
+
+    .about .story-img{
+        order:-1;
+    }
+
+    .about .story-img img{
+        height:400px;
+    }
+
+    .self-story{
+        padding:0;
+    }
+  
+    /* ---------- Mission ---------- */
+
+   .mission{
+   
+    min-height: 400px;
+    margin: var(--space-12) auto;
+    overflow: hidden;
+   }
+
+    .mission .objective{
+        padding:var(--space-4) ;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: auto;
+    }
+  
+
+    .mission .objective h1{
+        font-size:var(--font-size-2xl);
+        
+    }
+    .mission .objective p{
+        padding-bottom: var(--space-8);
+        
+    }
+     .clients {
+        padding: var(--space-12) var(--space-5);
+    }
+
+    .testimonial {
+        padding: var(--space-8) var(--space-5);
+    }
+
+    .testimonial-text {
+        font-size: var(--font-size-lg);
+        line-height: 1.7;
+    }
+
+    .testimonial-controls {
+        gap: var(--space-4);
+    }
+    
+
+    /* ---------- Team ---------- */
+
+    .team-info .team-grid{
+        grid-template-columns:1fr;
+    }
+
+    .team-grid .more,
+    .team-grid .info-m{
+        margin:0;
+        padding:var(--space-4);
+    }
+
+    /* ---------- Services Page ---------- */
+
+    .services-menu{
+        padding:var(--space-16) var(--space-4);
+    }
+
+    .services-menu .card-section{
+        grid-template-columns:1fr;
+    }
+
+    .services-menu .service-img{
+        margin:0;
+    }
+
+    .services-menu .service-img img{
+        height:320px;
+        
+        overflow: hidden;
+    }
+    .services-menu .service-img {
+       
+        padding-bottom: var(--space-3);
+        
+        overflow: hidden;
+    }
+
+    .services-menu .image-data{
+        width:100%;
+    }
+
+    .services-menu .info .inner-data{
+        flex-direction:row;
+        justify-content:space-between;
+        width:100%;
+    }
+
+    /* ---------- Book ---------- */
+
+    .book .book-section{
+        padding:var(--space-8) var(--space-4);
+        text-align:center;
+    }
+
+    /* ---------- Gallery ---------- */
+
+    .gallery{
+        padding:var(--space-16) var(--space-4);
+    }
+
+    .gallery-btn{
+        display:flex;
+        flex-wrap:wrap;
+        gap:var(--space-4);
+        justify-content:space-between;
+    }
+
+    .gallery-btn .btn{
+        flex:1 1 140px;
+        text-align:center;
+    }
+
+    .grid-gallery{
+        grid-template-columns:1fr;
+    }
+
+    .gallery-img img{
+        height:300px;
+    }
+
+    /* ---------- Contact ---------- */
+     .form-content{
+        margin-right: var(--space-8);
+    }
+    .contact{
+        grid-template-columns:1fr;
+        padding: var(--space-2);
+    }
+
+    .contact .contact-info{
+        margin:var(--space-4) var(--space-2);
+        width:100%;
+        padding-right: var(--space-16);
+        
+    }
+
+    .form-content{
+        grid-template-columns: 1fr;
+        width:100%;
+        
+    }
+    .form-content .user-grid{
+        grid-template-columns: 1fr;
+       
+    }
+   
+
+    .user-grid{
+        grid-template-columns:1fr;
+    }
+
+    .user-grid .full{
+        grid-column:auto;
+    }
+
+    .user-grid button{
+        width:100%;
+        margin:var(--space-8) 0;
+    }
+
+    
+
+
+    /* ---------- Thank You ---------- */
+
+    .thanks,
+    .appointment{
+        width:100%;
+        padding:var(--space-8) var(--space-4);
+    }
+
+    /* ---------- Footer ---------- */
+
+    footer .info{
+        grid-template-columns:1fr;
+        text-align:center;
+        gap:var(--space-8);
+    }
+
+    footer .main{
+        align-items:center;
+    }
+
+    footer .media{
+        flex-wrap:wrap;
+    }
+
+    footer .right{
+        text-align:center;
+    }
+
+}
+
+
+/* ==========================================================
+   SMALL PHONES (480px)
+========================================================== */
+
+@media screen and (max-width:480px){
+      /* =========================
+       GLOBAL
+    ========================= */
+
+    html {
+        overflow-x: hidden;
+    }
+
+    body {
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    main {
+        width: 100%;
+    }
+
+    /* ---------- Typography ---------- */
+
+    h1{
+        font-size:1.8rem;
+        line-height:1.2;
+    }
+
+    h2{
+        font-size:var(--font-size-base);
+    }
+
+    h3{
+        font-size:var(--font-size-2xl);
+    }
+
+    p{
+        font-size:var(--font-size-xs);
+        line-height:1.6;
+    }
+
+    /* ---------- Header ---------- */
+
+    header{
+        padding:0 .6rem;
+    }
+
+    .logo{
+        width:130px;
+    }
+
+    #menu{
+        font-size:var(--font-size-3xl);
+        padding: var(--space-4);
+    }
+
+    nav a{
+        padding:var(--space-4);
+        font-size:var(--font-size-base);
+    }
+
+    /* ---------- Hero ---------- */
+
+    .hero{
+        min-height:55vh;
+    }
+
+    .hero-content{
+        padding:var(--space-6) .8rem;
+    }
+
+    .hero-content h1{
+        font-size:1.8rem;
+    }
+
+    .hero-content p{
+        font-size:.95rem;
+        padding-bottom:1.5rem;
+    }
+
+    .hero-content .btn{
+        width:100%;
+        text-align:center;
+    }
+
+    .hero-content .btn{
+        font-size: var(--font-size-xs);
+    }
+
+      .short-menu-section {
+        width: 100%;
+        padding: var(--space-12) var(--space-6);
+    }
+
+    .short-menu-section .short-contaner{
+        width: 100%;
+    }
+    .short-container figure:first-child {
+    grid-column: span 1;
+
+    }
+    .short-menu-section .contents {
+        flex-direction: column;
+        padding: var(--space-6) var(--space-2);
+    
+    }
+
+   
+     
+
+
+/* ---------- About Us Section ---------- */
+
+  
+  
+
+   
+
+   
+   .about-us {
+        padding: var(--space-8) var(--space-4);
+    }
+
+    .about-us .about-page {
+        grid-template-columns: minmax(0, 1fr);
+        gap: var(--space-5);
+    }
+
+   
+
+    .about-us .about-page .about-image {
+        width: 100%;
+        max-width: 100%;
+       
+    }
+
+    .about-us .about-page .about-image img:first-child {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+    }
+
+  
+
+    .about-us .about-page .about-image img:nth-child(2) {
+        display: none;
+    }
+
+    
+    .about-page .main-contents {
+        width: 100%;
+        padding: var(--space-6);
+    }
+
+    .about-page .main-contents h2 {
+        font-size: 1.6rem;
+        line-height: 1.3;
+    }
+
+    .about-page .main-contents p {
+        padding: var(--space-3) 0;
+        line-height: 1.6;
+    }
+
+    
+
+    .main-contents .btn {
+        width: 100%;
+        max-width: 100%;
+    }
+
+
+    .about-us,
+    .services,
+    .about,
+  
+    .clients,
+    .services-menu,
+    .book,
+    .team-info{
+        padding:var(--space-4);
+    }
+
+    /* ---------- About ---------- */
+    .about-us{
+        width: 100%;
+        padding: 0;
+    }
+
+    .about .story-img img{
+        height:300px;
+    }
+
+    
+
+
+    /* ---------- Mission ---------- */
+
+    .mission{
+        min-height:300px;
+    }
+
+    .mission .objective{
+        padding:var(--space-6) .8rem;
+    }
+
+    .mission .objective h1{
+        font-size:1.5rem;
+    }
+
+    /* ---------- Gallery ---------- */
+
+    .gallery-btn{
+        gap:var(--space-2);
+    }
+
+    .gallery-btn .btn{
+        flex:1 1 100%;
+        font-size:.9rem;
+        padding:.8rem;
+    }
+
+    .gallery-img img{
+        height:240px;
+    }
+
+
+     .clients {
+        padding: var(--space-10) var(--space-4);
+    }
+
+    .clients h2 {
+        font-size: var(--font-size-2xl);
+    }
+
+    .clients-intro {
+        font-size: var(--font-size-sm);
+    }
+
+    .testimonial {
+        padding: var(--space-6) var(--space-4);
+    }
+
+    .testimonial-text {
+        font-size: var(--font-size-base);
+        line-height: 1.7;
+    }
+
+    .testimonial-author {
+        font-size: var(--font-size-sm);
+    }
+
+    .testimonial-btn {
+        width: 36px;
+        height: 36px;
+    }
+
+    .testimonial-controls {
+        gap: var(--space-3);
+    }
+
+}
+
+
+
+@media (prefers-reduced-motion: reduce) {
+
+    .testimonial {
+        animation: none;
+    }
+
+    .testimonial-btn,
+    .testimonial-dot {
+        transition: none;
+    }
+
+
+    /* ---------- Services ---------- */
+
+    .services-menu .service-img img{
+        height:260px;
+        margin-bottom: 1.2rem;
+        
+    }
+
+    .services-menu .info .inner-data{
+        flex-direction:column;
+        align-items:flex-start;
+        gap:.6rem;
+    }
+
+
+    /* ---------- Contact ---------- */
+    .form-content{
+        margin-right: var(--space-8);
+    }
+    .contact {
+        width: 100%;
+        padding: 0;
+        
+    }
+    .contact .contact-info{
+        width: 100%;
+        padding: var(--space-2) var(--space-4);
+      
+        
+    }
+   
+   
+
+    .contact .contact-info .b {
+    max-width: 360px;;
+ 
+    
+    }
+  
+
+    
+  
+    .form-content .user-grid{
+        grid-template-columns: 1fr;
+        
+    }
+    
+
+    
+
+    .user-grid label{
+        padding:.3rem;
+    }
+
+    .user-grid button{
+        width:100%;
+        margin:1.5rem 0;
+    }
+
+    .contact .contact-info .b {
+        width: 100%;
+        margin-right: var(--space-16);
+ 
+    
+}
+
+    .contact .contact-info .studio-addr .hours {
+    
+    flex-direction: column;
+
+    
+    }
+
+    /* ---------- Appointment ---------- */
+
+    .thanks,
+    .appointment{
+        padding:var(--space-6) .8rem;
+    }
+
+    .appointment a{
+        display:block;
+        margin:var(--space-4) auto;
+    }
+
+    /* ---------- Footer ---------- */
+
+    footer .info{
+        padding:var(--space-8) var(--space-4);
+        gap:var(--space-6);
+    }
+
+    footer .media a{
+        padding:.7rem;
+    }
+
+    footer .right{
+        font-size:.85rem;
+        padding:var(--space-4);
+    }
+
+}

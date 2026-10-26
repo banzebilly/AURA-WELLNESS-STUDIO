@@ -1,0 +1,206 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="description" content="Review your Glam-Days shopping cart and send an enquiry.">
+
+    <title>Your Cart | Glam-Days</title>
+
+    <!-- Font Awesome icons -->
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    >
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500&family=Jost:wght@300;400;500&display=swap">
+
+    <!-- Main stylesheet -->
+    <link rel="stylesheet" href="styles/shop.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="announcement">
+            FREE DELIVERY ON ORDERS OVER R 750
+        </div>
+
+        <div class="container header-row">
+
+            <button
+                id="menu-toggle"
+                aria-label="Toggle menu"
+                aria-controls="navigation"
+                aria-expanded="false"
+            >
+                ☰
+            </button>
+
+            <a class="brand" href="index.html">
+                Aura<span>·</span>wellness
+            </a>
+
+            <nav id="navigation" aria-label="Main navigation">
+             
+                <a href="shop.html">Shop</a>
+                <a href="about.html">About</a>
+                <a href="cart.html">FAQ</a>
+            </nav>
+
+                    
+            <div class="header-icons">
+
+                <!-- Search icon -->
+                <a href="index.html" class="icon-link" aria-label="Search">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </a>
+
+                <!-- Wishlist icon -->
+                <a href="wishlist.html" class="icon-link" aria-label="Wishlist">
+                    <i class="fa-regular fa-heart"></i>
+                </a>
+
+                <!-- Shopping bag icon -->
+              
+                <a class="icon-link cart-link" href="cart.html" aria-label="Shopping bag">
+                    <i class="fa-solid fa-bag-shopping"></i>
+                    <span id="cart-count">0</span>
+                </a>
+
+
+            </div>
+
+
+        </div>
+    </header>
+    <main>
+
+        <section class="page-title">
+            <p class="eyebrow">Your selection</p>
+            <h1>Your shopping bag</h1>
+            <p>Review your items before sending your enquiry.</p>
+        </section>
+
+        <section class="container content cart-layout">
+
+            <!-- Left side: Cart products -->
+            <div class="cart-products">
+
+                <div class="cart-table-heading">
+                    <span>Product</span>
+                    <span>Qty</span>
+                    <span>Total</span>
+                </div>
+
+                <!-- Cart products are rendered by JavaScript -->
+                <div id="cart-items"></div>
+
+                <div class="actions">
+                    <a href="shop.html" class="btn btn-outline">
+                        &larr; Continue shopping
+                    </a>
+
+                    <button id="clear-cart"
+                        class="btn btn-outline"
+                        type="button">
+                        Clear cart
+                    </button>
+                </div>
+
+            </div>
+
+            <!-- Right side: Small order summary and enquiry form -->
+            <aside class="summary order-summary">
+
+                <h2>Order summary</h2>
+
+                <p class="summary-row">
+                    <span>Subtotal</span>
+                    <span id="subtotal">R 0.00</span>
+                </p>
+
+                <p class="summary-row">
+                    <span>Delivery</span>
+                    <span id="delivery">R 0.00</span>
+                </p>
+
+                <p class="summary-row total summary-total">
+                    <strong>Total</strong>
+                    <strong id="total">R 0.00</strong>
+                </p>
+
+                <div class="enquiry-section">
+                    <h3>Send an enquiry</h3>
+
+                    <form id="enquiry-form">
+
+                        <label for="customer-name">Your name</label>
+                        <input
+                            type="text"
+                            id="customer-name"
+                            name="customerName"
+                            autocomplete="name"
+                            required
+                        >
+
+                        <label for="customer-email">Email address</label>
+                        <input
+                            type="email"
+                            id="customer-email"
+                            name="customerEmail"
+                            autocomplete="email"
+                            required
+                        >
+
+                        <label for="customer-message">Message</label>
+                        <textarea
+                            id="customer-message"
+                            name="message"
+                            rows="3"
+                            placeholder="Any questions about your order?"
+                        ></textarea>
+
+                        <button type="submit" class="btn enquiry-button">
+                            Submit enquiry
+                        </button>
+
+                    </form>
+                </div>
+
+            </aside>
+
+        </section>
+
+        <!-- Status messages -->
+        <div class="container">
+            <p id="status" role="status" aria-live="polite"></p>
+        </div>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+
+            <a class="brand" href="index.html">Glam·Days</a>
+
+            <p>Beauty and fashion essentials for everyday confidence.</p>
+
+            <p>&copy; 2026 Glam-Days</p>
+
+        </div>
+    </footer>
+
+    <!-- Existing cart JavaScript -->
+    <script type="module" src="./scripts/cart-page.mjs"></script>
+
+</body>
+</html>

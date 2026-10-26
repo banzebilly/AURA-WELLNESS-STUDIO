@@ -1,0 +1,364 @@
+/* ==========================================
+   Billy Aura Wellness Studio
+   Website Planning Document
+   siteplan.css
+========================================== */
+
+
+/* ==========================================
+   Color Palette
+========================================== */
+
+:root{
+
+    --background:#F9F6F1;
+    --foreground:#3B312C;
+
+    --primary:#8B5E4A;
+    --secondary:#EFE7D8;
+
+    --accent:#D9B37A;
+
+    --muted:#F3EEE4;
+    --border:#D8CFC1;
+
+    --white:#FFFFFF;
+
+    --shadow:0 10px 25px rgba(0,0,0,.05);
+    --radius:10px;
+}
+
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:'Poppins',sans-serif;
+    background:var(--background);
+    color:var(--foreground);
+    line-height:1.8;
+}
+
+
+
+header{
+    background:var(--secondary);
+    border-bottom:1px solid var(--border);
+    padding:2rem;
+}
+
+.logo{
+    display:flex;
+    align-items:center;
+    gap:1.5rem;
+}
+
+.logo img{
+    display:block;
+    max-width:180px;
+}
+
+.logo h1{
+    font-family:'Playfair Display',serif;
+    color:var(--foreground);
+    font-size:2rem;
+    margin-bottom:.4rem;
+}
+
+.logo p{
+    color:var(--primary);
+    letter-spacing:2px;
+    text-transform:uppercase;
+    font-size:.9rem;
+}
+
+
+
+.container{
+    width:min(1100px,90%);
+    margin:3rem auto;
+}
+
+
+
+section{
+    background:var(--white);
+    padding:2rem;
+    margin-bottom:2rem;
+    border:1px solid var(--border);
+    border-radius:var(--radius);
+    box-shadow:var(--shadow);
+}
+
+section h2{
+    font-family:'Playfair Display',serif;
+    color:var(--foreground);
+    font-size:2rem;
+    margin-bottom:1rem;
+}
+
+section h3{
+    font-family:'Playfair Display',serif;
+    color:var(--foreground);
+    margin-bottom:.8rem;
+}
+
+section p{
+    color:var(--foreground);
+    margin-bottom:1rem;
+}
+
+section ul{
+    margin-left:1.5rem;
+}
+
+section li{
+    margin-bottom:.8rem;
+    color:var(--foreground);
+}
+
+
+.cards{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+    gap:1.5rem;
+    margin-top:1.5rem;
+}
+
+.card{
+    background:var(--muted);
+    border:1px solid var(--border);
+    border-radius:var(--radius);
+    padding:1.5rem;
+    transition:.3s ease;
+}
+
+.card:hover{
+    transform:translateY(-4px);
+}
+
+.card h3{
+    color:var(--primary);
+    margin-bottom:.8rem;
+}
+
+.card p{
+    margin-bottom:0;
+}
+
+
+table{
+    width:100%;
+    border-collapse:collapse;
+    margin-top:1.5rem;
+}
+
+thead{
+    background:var(--primary);
+    color:var(--white);
+}
+
+th,
+td{
+    padding:1rem;
+    text-align:left;
+    border:1px solid var(--border);
+}
+
+tbody tr:nth-child(even){
+    background:var(--muted);
+}
+
+tbody tr:hover{
+    background:var(--secondary);
+}
+
+/* ==========================================
+   Color Circles
+========================================== */
+
+.color{
+    display:inline-block;
+    width:22px;
+    height:22px;
+    border-radius:50%;
+    margin-right:.8rem;
+    vertical-align:middle;
+    border:1px solid var(--border);
+}
+
+.background{
+    background:#F9F6F1;
+}
+
+.foreground{
+    background:#3B312C;
+}
+
+.primary{
+    background:#8B5E4A;
+}
+
+.secondary{
+    background:#EFE7D8;
+}
+
+.accent{
+    background:#D9B37A;
+}
+
+.muted{
+    background:#F3EEE4;
+}
+
+.border{
+    background:#D8CFC1;
+}
+
+/* ==========================================
+   Wireframes
+========================================== */
+
+.wireframes{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(350px,1fr));
+    gap:2rem;
+    margin-top:2rem;
+}
+
+.wireframe{
+    text-align:center;
+}
+
+.wireframe h3{
+    margin-bottom:1rem;
+    color:var(--primary);
+}
+
+.wireframe img{
+    width:100%;
+    max-width:450px;
+    border-radius:var(--radius);
+    border:1px solid var(--border);
+    box-shadow:var(--shadow);
+}
+
+/* ==========================================
+   Links
+========================================== */
+
+a{
+    color:var(--primary);
+    text-decoration:none;
+}
+
+a:hover{
+    color:var(--accent);
+}
+
+/* ==========================================
+   Footer
+========================================== */
+
+footer{
+    background:var(--secondary);
+    border-top:1px solid var(--border);
+    padding:2rem;
+    text-align:center;
+    color:var(--foreground);
+}
+
+/* ==========================================
+   Responsive Design
+========================================== */
+
+@media (max-width:900px){
+
+    .logo{
+        flex-direction:column;
+        text-align:center;
+    }
+
+    .logo h1{
+        font-size:1.8rem;
+    }
+
+    section{
+        padding:1.5rem;
+    }
+
+    th,
+    td{
+        padding:.8rem;
+        font-size:.95rem;
+    }
+
+}
+
+@media (max-width:768px){
+
+    .container{
+        width:95%;
+    }
+
+    section h2{
+        font-size:1.7rem;
+    }
+
+    .cards{
+        grid-template-columns:1fr;
+    }
+
+    .wireframes{
+        grid-template-columns:1fr;
+    }
+
+    table{
+        display:block;
+        overflow-x:auto;
+        white-space:nowrap;
+    }
+
+}
+
+@media (max-width:480px){
+
+    header{
+        padding:1.5rem 1rem;
+    }
+
+    .logo img{
+        max-width:140px;
+    }
+
+    .logo h1{
+        font-size:1.5rem;
+    }
+
+    section{
+        padding:1.2rem;
+    }
+
+    section h2{
+        font-size:1.5rem;
+    }
+
+    body{
+        font-size:.95rem;
+    }
+
+    th,
+    td{
+        padding:.7rem;
+        font-size:.9rem;
+    }
+
+}

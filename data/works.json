@@ -1,0 +1,104 @@
+[
+    {
+        "category": "massage",
+        "title": "swedish Massage",
+        "subtitle": "afleurage technic",
+        "image": "images/massage-a.png"
+    },
+    {
+        "category": "facial",
+        "title": "facial",
+        "subtitle": "trieatment",
+        "image": "images/facial-7.webp"
+    },
+    {
+        "category": "nails",
+        "title": "nail",
+        "subtitle": "trieatment",
+        "image": "images/nail-14.png"
+    },
+    {
+        "category": "nails",
+        "title": "full set",
+        "subtitle": "Tips,Acrelic,Gel",
+        "image": "images/nails-c.png"
+    },
+    {
+        "category": "waxing",
+        "title": "face Wax",
+        "subtitle": "Waxing",
+        "image": "images/wax-b.png"
+    },
+    {
+        "category": "facial",
+        "title": "facial",
+        "subtitle": "Massage",
+        "image": "images/facial-1.webp"
+    },
+    {
+        "category": "facial",
+        "title": "Glow Facial",
+        "subtitle": "Facial",
+        "image": "images/facial-4.jpg"
+    },
+    {
+        "category": "waxing",
+        "title": "wax",
+        "subtitle": "face wax",
+        "image": "images/wax-5.jpg"
+    },
+    {
+        "category": "facial",
+        "title": "Luxury Facial",
+        "subtitle": "Facial",
+        "image": "images/facial-2.jpg"
+    },
+    {
+        "category": "nails",
+        "title": "French Nails",
+        "subtitle": "Nails",
+        "image": "images/nail-1.webp"
+    },
+    {
+        "category": "facial",
+        "title": "skin care",
+        "subtitle": "Facial",
+        "image": "images/facial-5.webp"
+    },
+    {
+        "category": "nails",
+        "title": "Gel Nails",
+        "subtitle": "Nails",
+        "image": "images/nail-2.webp"
+    },
+    {
+        "category": "waxing",
+        "title": "Leg Wax",
+        "subtitle": "Waxing",
+        "image": "images/wax-b.png"
+    },
+    {
+        "category": "massage",
+        "title": "deep tissue",
+        "subtitle": "Massage",
+        "image": "images/deep.png"
+    },
+    {
+        "category": "nails",
+        "title": "coffin nails",
+        "subtitle": "Nails",
+        "image": "images/nails-b.webp"
+    },
+    {
+        "category": "massage",
+        "title": "Hot stone",
+        "subtitle": "massage",
+        "image": "images/hotstone.png"
+    },
+    {
+        "category": "waxing",
+        "title": "under arms Wax",
+        "subtitle": "Waxing",
+        "image": "images/wax-a.png"
+    }
+]

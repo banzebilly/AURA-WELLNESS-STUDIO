@@ -1,0 +1,36 @@
+
+
+
+[
+   
+    {
+        "category": "massage",
+        "title": "Swedish Massage",
+        "subtitle": "Afleurage Technic",
+        "image": "images/billy-swedish.webp"
+    },
+    {
+        "category": "nails",
+        "title": "fullset",
+        "subtitle": "acrelic",
+        "image": "images/nail-12.webp"
+    },
+    {
+        "category": "facial",
+        "title": "Facial",
+        "subtitle": "Mask",
+        "image": "images/facial-5.webp"
+    },
+    {
+        "category": "massage",
+        "title": "Swedish Massage",
+        "subtitle": "Friction Technic",
+        "image": "images/friction.png"
+    },
+    {
+        "category": "waxing",
+        "title": "under arms Wax",
+        "subtitle": "cold wax",
+        "image": "images/wax-a.png"
+    }
+]

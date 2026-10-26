@@ -1,0 +1,639 @@
+{
+  "currency": "ZAR",
+  "currencySymbol": "R",
+  "deliveryFee": 75,
+  "freeDeliveryOver": 750,
+  "products": [
+    {
+      "id": "bob-lace-wig",
+      "name": "BEAU DIVA 20-Inch Glueless Bob Wig",
+      "category": "Wigs",
+      "price": 1799,
+      "description": "BEAUDIVA Wear and Go Glueless Wigs Human Hair Pre Plucked Water Wave Bob Wig Human Hair Wigs Glueless Wig Pre Cut Lace for Beginners 4x4 Lace Closure Wig for Women",
+      "images": [
+        "shop-images/glw-1.png",
+        "shop-images/glw-2.png",
+        "shop-images/glw-3.png",
+        "shop-images/glw-4.png"
+      ],
+      "specifications": {
+        "size": "Available in selected lengths",
+        "colour": "Natural Black",
+        "material": "Human Hair, Lace",
+        "dimensions": "40 x 20 x 5 cm",
+        "hairType": "Straight",
+        "style": "Bob",
+        "specialFeature": "Glueless",
+        "brand": "BEAU DIVA",
+        "materialFeatures": [
+          "100% Human Hair",
+          "Glueless",
+          "Lace Front",
+          "Natural",
+          "Pre-plucked",
+          "Remy Hair"
+        ],
+        "unitCount": "1 wig",
+        "careInstructions": "Follow the supplier's care instructions."
+      },
+      "defaultVariantId": "bob-20-natural-black",
+      "variants": [
+        {
+          "id": "bob-12-natural-black",
+          "length": 12,
+          "color": "Natural Black",
+          "price": 1299,
+          "inStock": true
+        },
+        {
+          "id": "bob-14-natural-black",
+          "length": 14,
+          "color": "Natural Black",
+          "price": 1399,
+          "inStock": true
+        },
+        {
+          "id": "bob-16-natural-black",
+          "length": 16,
+          "color": "Natural Black",
+          "price": 1499,
+          "inStock": true
+        },
+        {
+          "id": "bob-18-natural-black",
+          "length": 18,
+          "color": "Natural Black",
+          "price": 1599,
+          "inStock": true
+        },
+        {
+          "id": "bob-20-natural-black",
+          "length": 20,
+          "color": "Natural Black",
+          "price": 1799,
+          "inStock": true
+        },
+        {
+          "id": "bob-22-natural-black",
+          "length": 22,
+          "color": "Natural Black",
+          "price": 1999,
+          "inStock": true
+        },
+        {
+          "id": "bob-24-natural-black",
+          "length": 24,
+          "color": "Natural Black",
+          "price": 2199,
+          "inStock": true
+        }
+      ],
+      "inStock": true
+    },
+    {
+      "id": "body-wave-lace-wig",
+      "name": "Body Wave Lace Front Wig",
+      "category": "Wigs",
+      "price": 2199,
+      "description": "A glamorous body wave wig with soft waves and a versatile finish for everyday wear or special occasions.",
+      "images": [
+        "shop-images/bw-1.webp",
+        "shop-images/bw-2.webp",
+        "shop-images/bw-3.webp"
+      ],
+      "specifications": {
+        "size": "Available in selected lengths",
+        "colour": "Natural Black",
+        "material": "Confirm with supplier",
+        "hairType": "Body Wave",
+        "style": "Lace Front",
+        "specialFeature": "Natural-looking hairline",
+        "brand": "Confirm with supplier",
+        "unitCount": "1 wig",
+        "careInstructions": "Follow the supplier's care instructions."
+      },
+      "defaultVariantId": "body-wave-20-black",
+      "variants": [
+        {
+          "id": "body-wave-12-black",
+          "length": 12,
+          "color": "Black",
+          "price": 1599,
+          "inStock": true
+        },
+        {
+          "id": "body-wave-14-black",
+          "length": 14,
+          "color": "Black",
+          "price": 1699,
+          "inStock": true
+        },
+        {
+          "id": "body-wave-16-black",
+          "length": 16,
+          "color": "Black",
+          "price": 1799,
+          "inStock": true
+        },
+        {
+          "id": "body-wave-18-black",
+          "length": 18,
+          "color": "Black",
+          "price": 1999,
+          "inStock": true
+        },
+        {
+          "id": "body-wave-20-black",
+          "length": 20,
+          "color": "Black",
+          "price": 2199,
+          "inStock": true
+        },
+        {
+          "id": "body-wave-22-black",
+          "length": 22,
+          "color": "Black",
+          "price": 2399,
+          "inStock": true
+        },
+        {
+          "id": "body-wave-24-black",
+          "length": 24,
+          "color": "Black",
+          "price": 2599,
+          "inStock": true
+        }
+      ],
+      "inStock": true
+    },
+    {
+      "id": "deep-wave-wig",
+      "name": "Deep Wave Lace Wig",
+      "category": "Wigs",
+      "price": 2399,
+      "description": "Lace Front Wigs Deep Wave Synthetic Artificial Human Hair Pre-Plucked Glueless, Body Wave Frontal Wigs HD Transparent Lace Wigs High-Density Emulation...",
+      "images": [
+        "shop-images/dlw-1.png",
+        "shop-images/dlw-2.png",
+        "shop-images/dlw-3.png",
+        "shop-images/dlw-4.png"
+      ],
+      "specifications": {
+        "size": "Available in selected lengths",
+        "colour": "Natural Black",
+        "material": "Confirm with supplier",
+        "hairType": "Deep Wave",
+        "style": "Lace Wig",
+        "specialFeature": "Defined waves",
+        "brand": "Confirm with supplier",
+        "unitCount": "1 wig",
+        "careInstructions": "Follow the supplier's care instructions."
+      },
+      "defaultVariantId": "deep-wave-20-black",
+      "variants": [
+        {
+          "id": "deep-wave-12-black",
+          "length": 12,
+          "color": "Black",
+          "price": 1799,
+          "inStock": true
+        },
+        {
+          "id": "deep-wave-14-black",
+          "length": 14,
+          "color": "Black",
+          "price": 1899,
+          "inStock": true
+        },
+        {
+          "id": "deep-wave-16-black",
+          "length": 16,
+          "color": "Black",
+          "price": 1999,
+          "inStock": true
+        },
+        {
+          "id": "deep-wave-18-black",
+          "length": 18,
+          "color": "Black",
+          "price": 2199,
+          "inStock": true
+        },
+        {
+          "id": "deep-wave-20-black",
+          "length": 20,
+          "color": "Black",
+          "price": 2399,
+          "inStock": true
+        },
+        {
+          "id": "deep-wave-22-black",
+          "length": 22,
+          "color": "Black",
+          "price": 2599,
+          "inStock": true
+        },
+        {
+          "id": "deep-wave-24-black",
+          "length": 24,
+          "color": "Black",
+          "price": 2799,
+          "inStock": true
+        }
+      ],
+      "inStock": true
+    },
+    {
+      "id": "straight-lace-front-wig",
+      "name": "Straight Lace Front Wig",
+      "category": "Wigs",
+      "price": 1999,
+      "description": "A sleek straight wig with a polished finish for professional looks and elegant occasions.",
+      "images": [
+        "shop-images/slfw-1.webp",
+        "shop-images/slfw-2.webp",
+        "shop-images/slfw-3.webp",
+        "shop-images/slfw-4.webp"
+      ],
+      "specifications": {
+        "size": "Available in selected lengths",
+        "colour": "Natural Black",
+        "material": "Confirm with supplier",
+        "hairType": "Straight",
+        "style": "Lace Front",
+        "specialFeature": "Sleek finish",
+        "brand": "Confirm with supplier",
+        "unitCount": "1 wig",
+        "careInstructions": "Follow the supplier's care instructions."
+      },
+      "defaultVariantId": "straight-wig-20-black",
+      "variants": [
+        {
+          "id": "straight-wig-12-black",
+          "length": 12,
+          "color": "Black",
+          "price": 1399,
+          "inStock": true
+        },
+        {
+          "id": "straight-wig-14-black",
+          "length": 14,
+          "color": "Black",
+          "price": 1499,
+          "inStock": true
+        },
+        {
+          "id": "straight-wig-16-black",
+          "length": 16,
+          "color": "Black",
+          "price": 1599,
+          "inStock": true
+        },
+        {
+          "id": "straight-wig-18-black",
+          "length": 18,
+          "color": "Black",
+          "price": 1799,
+          "inStock": true
+        },
+        {
+          "id": "straight-wig-20-black",
+          "length": 20,
+          "color": "Black",
+          "price": 1999,
+          "inStock": true
+        },
+        {
+          "id": "straight-wig-22-black",
+          "length": 22,
+          "color": "Black",
+          "price": 2199,
+          "inStock": true
+        },
+        {
+          "id": "straight-wig-24-black",
+          "length": 24,
+          "color": "Black",
+          "price": 2399,
+          "inStock": true
+        }
+      ],
+      "inStock": true
+    },
+    {
+      "id": "kinky-straight-wig",
+      "name": "Kinky Straight Textured Wig",
+      "category": "Wigs",
+      "price": 2099,
+      "description": "A textured straight wig inspired by the appearance of natural hair, with volume and a versatile finish.",
+      "images": [
+        "shop-images/kslfw-1.webp",
+        "shop-images/kslfw-2.webp",
+        "shop-images/kslfw-3.webp"
+      ],
+      "specifications": {
+        "size": "Available in selected lengths",
+        "colour": "Natural Black",
+        "material": "Confirm with supplier",
+        "hairType": "Kinky Straight",
+        "style": "Textured Straight",
+        "specialFeature": "Natural-inspired texture",
+        "brand": "Confirm with supplier",
+        "unitCount": "1 wig",
+        "careInstructions": "Follow the supplier's care instructions."
+      },
+      "defaultVariantId": "kinky-wig-20-black",
+      "variants": [
+        {
+          "id": "kinky-wig-12-black",
+          "length": 12,
+          "color": "Black",
+          "price": 1499,
+          "inStock": true
+        },
+        {
+          "id": "kinky-wig-14-black",
+          "length": 14,
+          "color": "Black",
+          "price": 1599,
+          "inStock": true
+        },
+        {
+          "id": "kinky-wig-16-black",
+          "length": 16,
+          "color": "Black",
+          "price": 1699,
+          "inStock": true
+        },
+        {
+          "id": "kinky-wig-18-black",
+          "length": 18,
+          "color": "Black",
+          "price": 1899,
+          "inStock": true
+        },
+        {
+          "id": "kinky-wig-20-black",
+          "length": 20,
+          "color": "Black",
+          "price": 2099,
+          "inStock": true
+        },
+        {
+          "id": "kinky-wig-22-black",
+          "length": 22,
+          "color": "Black",
+          "price": 2299,
+          "inStock": true
+        },
+        {
+          "id": "kinky-wig-24-black",
+          "length": 24,
+          "color": "Black",
+          "price": 2499,
+          "inStock": true
+        }
+      ],
+      "inStock": true
+    },
+    {
+      "id": "straight-human-hair-bundle",
+      "name": "Straight Human Hair Bundle",
+      "category": "Hair Bundles",
+      "price": 899,
+      "description": "Straight Hairpiece14 and 16 inch Bundles 100% Human Hair Black Natural Color",
+      "images": [
+        "shop-images/sb-1.png",
+        "shop-images/sb-2.png",
+        "shop-images/sb-3.png"
+      ],
+      "specifications": {
+        "size": "Available in selected lengths",
+        "colour": "Natural Black",
+        "material": "Confirm with supplier",
+        "hairType": "Straight",
+        "style": "Hair Bundle",
+        "specialFeature": "Versatile styling",
+        "brand": "Confirm with supplier",
+        "unitCount": "Confirm bundle weight with supplier",
+        "careInstructions": "Follow the supplier's care instructions."
+      },
+      "defaultVariantId": "straight-bundle-12-black",
+      "variants": [
+        {
+          "id": "straight-bundle-8-black",
+          "length": 8,
+          "color": "Black",
+          "price": 699,
+          "inStock": true
+        },
+        {
+          "id": "straight-bundle-10-black",
+          "length": 10,
+          "color": "Black",
+          "price": 799,
+          "inStock": true
+        },
+        {
+          "id": "straight-bundle-12-black",
+          "length": 12,
+          "color": "Black",
+          "price": 899,
+          "inStock": true
+        },
+        {
+          "id": "straight-bundle-14-black",
+          "length": 14,
+          "color": "Black",
+          "price": 999,
+          "inStock": true
+        },
+        {
+          "id": "straight-bundle-16-black",
+          "length": 16,
+          "color": "Black",
+          "price": 1099,
+          "inStock": true
+        },
+        {
+          "id": "straight-bundle-18-black",
+          "length": 18,
+          "color": "Black",
+          "price": 1199,
+          "inStock": true
+        },
+        {
+          "id": "straight-bundle-20-black",
+          "length": 20,
+          "color": "Black",
+          "price": 1299,
+          "inStock": true
+        }
+      ],
+      "inStock": true
+    },
+    {
+      "id": "body-wave-human-hair-bundle",
+      "name": "Body Wave Human Hair Bundle",
+      "category": "Hair Bundles",
+      "price": 1099,
+      "description": "A body wave hair bundle for soft waves, added volume and a flowing hairstyle.",
+      "images": [
+        "shop-images/d-1.webp",
+        "shop-images/d-2.webp",
+        "shop-images/d-3.webp"
+      ],
+      "specifications": {
+        "size": "Available in selected lengths",
+        "colour": "Natural Black",
+        "material": "Confirm with supplier",
+        "hairType": "Body Wave",
+        "style": "Hair Bundle",
+        "specialFeature": "Soft wave pattern",
+        "brand": "Confirm with supplier",
+        "unitCount": "Confirm bundle weight with supplier",
+        "careInstructions": "Follow the supplier's care instructions."
+      },
+      "defaultVariantId": "body-bundle-12-black",
+      "variants": [
+        {
+          "id": "body-bundle-8-black",
+          "length": 8,
+          "color": "Black",
+          "price": 799,
+          "inStock": true
+        },
+        {
+          "id": "body-bundle-10-black",
+          "length": 10,
+          "color": "Black",
+          "price": 899,
+          "inStock": true
+        },
+        {
+          "id": "body-bundle-12-black",
+          "length": 12,
+          "color": "Black",
+          "price": 1099,
+          "inStock": true
+        },
+        {
+          "id": "body-bundle-14-black",
+          "length": 14,
+          "color": "Black",
+          "price": 1199,
+          "inStock": true
+        },
+        {
+          "id": "body-bundle-16-black",
+          "length": 16,
+          "color": "Black",
+          "price": 1299,
+          "inStock": true
+        },
+        {
+          "id": "body-bundle-18-black",
+          "length": 18,
+          "color": "Black",
+          "price": 1399,
+          "inStock": true
+        },
+        {
+          "id": "body-bundle-20-black",
+          "length": 20,
+          "color": "Black",
+          "price": 1499,
+          "inStock": true
+        }
+      ],
+      "inStock": true
+    },
+    {
+      "id": "deep-wave-human-hair-bundle",
+      "name": "Deep Wave Human Hair Bundle",
+      "category": "Hair Bundles",
+      "price": 1199,
+      "description": "Deep Wave Bundles Human Hair 14 16 18 Inch Brazilian Virgin Curly Bundles | Deep Curly Human Hair Bundles for Black Women 100% Unprocessed Wet and Wavy",
+      "images": [
+        "shop-images/dwhb-1.png",
+        "shop-images/dwhb-2.png",
+        "shop-images/dwhb-3.png",
+        "shop-images/dwhb-4.png"
+      ],
+      "specifications": {
+        "size": "Available in selected lengths",
+        "colour": "Natural Black",
+        "material": "Confirm with supplier",
+        "hairType": "Deep Wave",
+        "style": "Hair Bundle",
+        "specialFeature": "Defined wave pattern",
+        "brand": "Confirm with supplier",
+        "unitCount": "Confirm bundle weight with supplier",
+        "careInstructions": "Follow the supplier's care instructions."
+      },
+      "defaultVariantId": "deep-bundle-12-black",
+      "variants": [
+        {
+          "id": "deep-bundle-8-black",
+          "length": 8,
+          "color": "Natural Black",
+          "price": 899,
+          "inStock": true
+        },
+        {
+          "id": "deep-bundle-10-black",
+          "length": 10,
+          "color": "Natural Black",
+          "price": 999,
+          "inStock": true
+        },
+        {
+          "id": "deep-bundle-12-black",
+          "length": 12,
+          "color": "Natural Black",
+          "price": 1199,
+          "inStock": true
+        },
+        {
+          "id": "deep-bundle-14-black",
+          "length": 14,
+          "color": "Natural Black",
+          "price": 1299,
+          "inStock": true
+        },
+        {
+          "id": "deep-bundle-16-black",
+          "length": 16,
+          "color": "Natural Black",
+          "price": 1399,
+          "inStock": true
+        },
+        {
+          "id": "deep-bundle-18-black",
+          "length": 18,
+          "color": "Natural Black",
+          "price": 1499,
+          "inStock": true
+        },
+        {
+          "id": "deep-bundle-20-black",
+          "length": 20,
+          "color": "Natural Black",
+          "price": 1599,
+          "inStock": true
+        }
+      ],
+      "inStock": true
+    },
+    {
+      "id": "example-standard-product",
+      "name": "Example Standard Product",
+      "category": "Accessories",
+      "price": 299,
+      "description": "A standard product without selectable variants. Replace this example with your actual product or remove it.",
+      "images": [],
+      "specifications": {},
+      "inStock": true
+    }
+  ]
+}

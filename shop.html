@@ -1,0 +1,163 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500&family=Jost:wght@300;400;500&display=swap"
+    >
+
+    <!-- Font Awesome icons -->
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    >
+
+    <!-- Your website stylesheet -->
+    <link rel="stylesheet" href="styles/shop.css">
+
+    <title>Shop — Glam-Days</title>
+
+    <meta
+        name="description"
+        content="Shop at Glam-Days."
+    >
+</head>
+
+
+<body>
+
+    <header>
+        <div class="announcement">
+            FREE DELIVERY ON ORDERS OVER R 750
+        </div>
+
+        <div class="container header-row">
+
+            <button
+                id="menu-toggle"
+                aria-label="Toggle menu"
+                aria-controls="navigation"
+                aria-expanded="false"
+            >
+                ☰
+            </button>
+
+            <a class="brand" href="index.html">
+                Aura<span>·</span>wellness
+            </a>
+
+            <nav id="navigation" aria-label="Main navigation">
+                
+                <a href="shop.html">Shop</a>
+                <a href="about.html">About</a>
+                <a href="cart.html">FAQ</a>
+            </nav>
+
+                    
+            <div class="header-icons">
+
+                <!-- Search icon -->
+                <a href="index.html" class="icon-link" aria-label="Search">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </a>
+
+                <!-- Wishlist icon -->
+                <a href="wishlist.html" class="icon-link" aria-label="Wishlist">
+                    <i class="fa-regular fa-heart"></i>
+                </a>
+
+                <!-- Shopping bag icon -->
+              
+                <a class="icon-link cart-link" href="cart.html" aria-label="Shopping bag">
+                    <i class="fa-solid fa-bag-shopping"></i>
+                    <span id="cart-count">0</span>
+                </a>
+
+
+            </div>
+
+
+        </div>
+    </header>
+
+    <main>
+
+        <section class="page-title">
+            <p class="eyebrow">The collection</p>
+
+            <h1>Shop all</h1>
+
+            <p>
+                Everyday essentials and little luxuries, chosen with care.
+            </p>
+        </section>
+
+        <section class="content container">
+
+            <div class="toolbar">
+
+                <label>
+                    Category
+
+                    <select id="category">
+                        <option>All</option>
+                    </select>
+                </label>
+
+                <span id="product-count"></span>
+
+                <label>
+                    Sort
+
+                    <select id="sort">
+                        <option value="featured">Featured</option>
+                        <option value="ascending">Price: low to high</option>
+                        <option value="descending">Price: high to low</option>
+                    </select>
+                </label>
+
+            </div>
+
+            <div id="product-grid" class="product-grid"></div>
+
+        </section>
+
+        <div class="container">
+            <p
+                id="status"
+                role="status"
+                aria-live="polite"
+            ></p>
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="container">
+
+            <a class="brand" href="index.html">
+                Glam·Days
+            </a>
+
+            <p>
+                Beauty and fashion essentials for everyday confidence.
+            </p>
+
+            <p>© 2026 Glam-Days</p>
+
+        </div>
+    </footer>
+
+    <script type="module" src="./scripts/shop.mjs"></script>
+
+</body>
+
+</html>
