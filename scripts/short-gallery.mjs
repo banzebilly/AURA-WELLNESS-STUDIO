@@ -1,8 +1,12 @@
-let smallGallery = [];
-
-const shortContainer = document.querySelector("#short-container");
 
 export async function shortGallery() {
+    const shortContainer = document.querySelector("#short-container");
+
+    // This page does not have the short gallery.
+    if (!shortContainer) {
+        return;
+    }
+
     try {
         const response = await fetch("data/chort-menu.json");
 
@@ -14,7 +18,7 @@ export async function shortGallery() {
 
         shortContainer.innerHTML = "";
 
-        smallGallery.forEach(item => {
+        smallGallery.forEach((item) => {
             shortContainer.innerHTML += `
                 <figure>
                     <img
@@ -33,6 +37,6 @@ export async function shortGallery() {
         });
 
     } catch (error) {
-        console.error("Failed to load gallery:", error);
+        console.error("Failed to load short gallery:", error);
     }
 }

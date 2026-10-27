@@ -114,6 +114,109 @@ body {
 }
 
 
+/* =========================================
+   AURA WELLNESS STUDIO — LOADING SCREEN
+========================================= */
+
+#aura-loader {
+    position: fixed;
+    inset: 0;
+    width: 100%;
+    height: 100vh;
+    height: 100dvh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #f9f6f1;
+    color: #3b312c;
+
+    z-index: 99999;
+
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+
+    transition:
+        opacity 0.6s ease,
+        visibility 0.6s ease;
+}
+
+/* Center the logo and loading line */
+.aura-loader-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+
+    text-align: center;
+}
+
+/* Letter A */
+.aura-loader-mark {
+    width: 70px;
+    height: 70px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: 1px solid #c8a96a;
+    border-radius: 50%;
+
+    color: #c8a96a;
+    font-family: Georgia, serif;
+    font-size: 38px;
+}
+
+/* Studio name */
+.aura-loader-name {
+    margin: 0;
+
+    font-size: 15px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+/* Animated gold loading line */
+.aura-loader-line {
+    width: 140px;
+    height: 2px;
+
+    overflow: hidden;
+    background-color: #e5ded2;
+
+    position: relative;
+}
+
+.aura-loader-line::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+
+    background-color: #c8a96a;
+
+    transform: translateX(-100%);
+    animation: auraLoading 1.2s ease-in-out infinite;
+}
+
+/* Hide the loader after the page loads */
+#aura-loader.is-loaded {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+}
+
+/* Loading animation */
+@keyframes auraLoading {
+    to {
+        transform: translateX(100%);
+    }
+}
+
+
+
 /* =========================
    HEADER
 ========================= */
@@ -138,6 +241,7 @@ header {
     padding: 0 var(--space-20);
   
 }
+
 
 .logo {
     width: 150px;
@@ -224,7 +328,18 @@ nav a:hover {
     }
 }
 
+/* Elements before they appear on screen */
+.reveal {
+    opacity: 0;
+    transform: translateY(25px);
+    transition: opacity 0.7s ease, transform 0.7s ease;
+}
 
+/* Elements after they appear on screen */
+.reveal.is-visible {
+    opacity: 1;
+    transform: translateY(0);
+}
 
 .hero {
     width: 100%;
@@ -788,7 +903,7 @@ section {
             rgba(0, 0, 0, 0.45),
             rgba(0, 0, 0, 0.45)
         ),
-        url("../images/stone-massage.png");
+        url("../images/billy-hotstone.png");
 
     background-size: cover;
     background-position: center;
@@ -1420,7 +1535,7 @@ footer .main {
 
     flex-direction: column;
 
-    padding-top: 2rem;
+    padding: var(--space-8);
 }
 
 footer .main a {
@@ -1429,6 +1544,18 @@ footer .main a {
     color: var(--section-bg);
 
     padding: 0.1rem 0;
+}
+footer .main h4 {
+    
+
+    color: var(--accent);
+    padding-bottom: var(--space-5);
+}
+footer .main p {
+    
+
+    
+    padding-bottom: var(--space-3);
 }
 
 footer .media {

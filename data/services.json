@@ -32,32 +32,46 @@
         }
       ]
     },
+    
     {
       "category": "Facials",
-      "tagline": "Skin, treated with respect.",
+      "tagline": "Healthy skin starts with the right care.",
       "image": "images/facial-3.webp",
       "imageAlt": "Facial treatment at Billy Aura Wellness Studio",
       "items": [
         {
           "name": "Glow Facial",
           "duration": "40 min",
-          "description": "Cleanse, exfoliate, mask, massage — a reset for tired skin.",
+          "description": "A refreshing facial with cleansing, gentle exfoliation, a nourishing mask and a relaxing facial massage. Suitable for clients looking for a simple skin refresh.",
           "price": 300
         },
         {
           "name": "Clarifying Facial",
           "duration": "60 min",
-          "description": "Gentle extractions and calming actives for congested skin.",
-          "price": 130
+          "description": "A deep-cleansing facial focused on oily and congested skin. Includes cleansing, suitable exfoliation, and extractions when appropriate, followed by calming skincare.",
+          "price": 350
         },
         {
-          "name": "Lumière Signature",
+          "name": "Lumière Signature Facial",
           "duration": "90 min",
-          "description": "Our most complete ritual — LED, lymphatic massage, and a bespoke mask.",
-          "price": 450
+          "description": "A personalised facial experience combining skin cleansing, selected skincare, facial massage and a mask chosen for your skin's needs. Additional treatments, including LED, may be offered when available and suitable.",
+          "price": "Coming Soon"
+        },
+        {
+          "name": "HydraFacial",
+          "duration": "Coming Soon",
+          "description": "A professional treatment designed to cleanse, exfoliate and hydrate the skin using specialised equipment. Available once the equipment, training and treatment protocols are in place.",
+          "price": "Coming Soon"
+        },
+        {
+          "name": "Laser Skin Treatments",
+          "duration": "Coming Soon",
+          "description": "Professional laser treatments for selected skin concerns. Treatment options will be confirmed after appropriate training, skin assessment and a suitability consultation.",
+          "price": "Coming Soon"
         }
       ]
     },
+
     {
       "category": "Nails",
       "tagline": "Clean shapes, quiet polish.",

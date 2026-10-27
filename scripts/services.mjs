@@ -4,6 +4,12 @@ const servicesContainer = document.querySelector(".services-menu");
 
 
 export async function loadServices() {
+    const servicesContainer = document.querySelector(".services-menu");
+
+    if (!servicesContainer) {
+        return;
+    }
+
     try {
         const response = await fetch("data/services.json");
 
@@ -12,7 +18,6 @@ export async function loadServices() {
         }
 
         const data = await response.json();
-
         displayServices(data.services);
 
     } catch (error) {
@@ -124,5 +129,3 @@ function displayServices(services) {
 }
 
 
-// Start loading the services
-loadServices();

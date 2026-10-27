@@ -47,12 +47,23 @@
 
     <!-- Main JavaScript -->
     <script src="scripts/aura.mjs" type="module"></script>
+    <script type="module" src="scripts/loads.mjs"></script>
  
    
 </head>
 
 <body>
 
+    <!-- ================= Loading ================= -->
+    <div id="aura-loader" aria-label="Loading Aura Wellness Studio">
+        <div class="aura-loader-inner">
+            <div class="aura-loader-mark" aria-hidden="true">A</div>
+
+            <p class="aura-loader-name">Aura Wellness Studio</p>
+
+            <div class="aura-loader-line" aria-hidden="true"></div>
+        </div>
+    </div>
     <!-- ================= HEADER ================= -->
     <header>
 
@@ -74,6 +85,9 @@
         <nav class="navigation">
             <a href="index.html">Home</a>
             <a href="services.html"class="active" >Services</a>
+             <a href="gallary.html">
+                Gallery
+            </a>
              <a href="shop.html"><span>Shop</span></a>
             <a href="contact.html">Contact</a>
         </nav>
@@ -85,7 +99,7 @@
     <main class="container">
 
         <!-- ================= HERO ================= -->
-        <section class="hero">
+        <section class="hero reveal">
 
           
 
@@ -107,7 +121,7 @@
 
 
         <!-- ================= SERVICES ================= -->
-        <section class="services-menu">
+        <section class="services-menu reveal">
 
             <!--
                 Services are loaded dynamically from:
@@ -123,7 +137,7 @@
 
 
         <!-- ================= BOOKING ================= -->
-        <section class="book">
+        <section class="book reveal">
 
             <div class="book-section">
 
@@ -162,14 +176,15 @@
 
                 <a href="index.html">Home</a>
                 <a href="services.html">Services</a>
+                 <a href="gallary.html">
+                    Gallery
+                </a>
+                 <a href="shop.html">
+                    Shop
+                </a>
             
                 <a href="contact.html">Contact</a>
-                 <a
-                    href="https://www.youtube.com/watch?v=FGp1oBrSrGM&t=29s"
-                    target="_blank"
-                    rel="noopener">
-                    Project Video 
-                </a>
+              
                     
 
             </div>
@@ -185,23 +200,32 @@
             </div>
 
 
+            
             <div class="main">
 
-                <h4>Business Hours</h4>
+                <h4>
+                    Business Hours
+                </h4>
 
                 <p>
                     Mon-Fri
-                    <span>9:00 AM - 6:00 PM</span>
+                    <span>
+                        7:00 AM - 10:00 PM
+                    </span>
                 </p>
 
                 <p>
                     Sat
-                    <span>9:00 AM - 4:00 PM</span>
+                    <span>
+                        7:00 AM - 7:00 PM
+                    </span>
                 </p>
 
                 <p>
                     Sun
-                    <span>Closed</span>
+                    <span>
+                        8:00 AM - 5:00 PM
+                    </span>
                 </p>
 
             </div>

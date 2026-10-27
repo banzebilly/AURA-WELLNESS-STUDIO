@@ -5,12 +5,7 @@
         "subtitle": "afleurage technic",
         "image": "images/massage-a.png"
     },
-    {
-        "category": "facial",
-        "title": "facial",
-        "subtitle": "trieatment",
-        "image": "images/facial-7.webp"
-    },
+  
     {
         "category": "nails",
         "title": "nail",
@@ -35,24 +30,14 @@
         "subtitle": "Massage",
         "image": "images/facial-1.webp"
     },
-    {
-        "category": "facial",
-        "title": "Glow Facial",
-        "subtitle": "Facial",
-        "image": "images/facial-4.jpg"
-    },
+   
     {
         "category": "waxing",
         "title": "wax",
         "subtitle": "face wax",
         "image": "images/wax-5.jpg"
     },
-    {
-        "category": "facial",
-        "title": "Luxury Facial",
-        "subtitle": "Facial",
-        "image": "images/facial-2.jpg"
-    },
+   
     {
         "category": "nails",
         "title": "French Nails",

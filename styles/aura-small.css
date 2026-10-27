@@ -730,7 +730,7 @@
     }
 
     .hero-content{
-        padding:var(--space-6) .8rem;
+        padding:var(--space-20) .8rem;
     }
 
     .hero-content h1{
@@ -1040,4 +1040,25 @@
         padding:var(--space-4);
     }
 
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (prefers-reduced-motion: reduce) {
+    .aura-loader-line::after {
+        animation: none;
+        transform: none;
+    }
+
+    #aura-loader {
+        transition: none;
+    }
 }
