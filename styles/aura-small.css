@@ -658,6 +658,18 @@
         text-align:center;
     }
 
+     .whatsapp-float {
+        width: 54px;
+        height: 54px;
+        right: 18px;
+        bottom: 18px;
+    }
+
+    .whatsapp-float img {
+        width: 32px;
+        height: 32px;
+    }
+
 }
 
 
