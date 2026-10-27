@@ -865,11 +865,14 @@
     }
 
     .mission .objective{
-        padding:var(--space-6) .8rem;
+        padding:var(--space-16) .8rem;
+        align-self: flex-start;
+
     }
 
     .mission .objective h1{
         font-size:1.5rem;
+        padding-top: var(--space-16);
     }
 
     /* ---------- Gallery ---------- */
