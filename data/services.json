@@ -72,100 +72,70 @@
       ]
     },
 
+    
     {
       "category": "Nails",
-      "tagline": "Clean shapes, quiet polish.",
+      "tagline": "Beautifully shaped. Expertly finished.",
       "image": "images/nail-12.webp",
-      "imageAlt": "Nail treatment at Billy Aura Wellness Studio",
+      "imageAlt": "Professional nail treatment at Billy Aura Wellness Studio",
       "items": [
         {
-          "name": "Gel OVerlay",
+          "name": "Gel Overlay",
           "duration": "40 min",
-          "description": "Shape, cuticle care, Acrelic and Gel.",
+          "description": "Nail shaping, cuticle care, and a durable gel overlay for a smooth, glossy finish.",
           "price": 130
         },
         {
           "name": "Gel Manicure",
           "duration": "30 min",
-          "description": "Long-wear color with a soft, glossy finish.",
+          "description": "Neat nail shaping and long-lasting gel colour for a clean, polished look.",
           "price": 100
         },
         {
-          "name": " Pedicure",
+          "name": "Gel Pedicure",
           "duration": "30 min",
-          "description": " massage, and Gel.",
+          "description": " nail shaping, and gel polish for a refreshed finish.",
           "price": 100
         },
         {
-          "name": "Signature Full Set",
-          
-          "description": "Premium nail extensions with acrylic gel polish.",
-          "price": 150 
+          "name": "Signature Acrylic Full Set",
+          "description": "Beautifully sculpted nail extensions finished with your choice of gel polish.",
+          "price": 150
         },
         {
-          "name": "Signature Full Set",
-          
-          "description": "Premium nail extensions with acrylic gel polish including nail art.",
-          "price": 180 
+          "name": "Acrylic Full Set with Nail Art",
+          "description": "Custom nail extensions with gel polish and artistic details to express your style.",
+          "price": 180
         },
         {
-          "name": "Signature Full Set",
-          
-          "description": "Premium nail extensions with acrylic gel polish Bridal set.",
-          "price": 200 
+          "name": "Bridal Signature Nail Set",
+          "description": "An elegant bridal nail design with extensions, gel polish, and refined finishing touches.",
+          "price": 200
+        },
+        
+        {
+          "name": "Signature Foot Exfoliation & Gel Pedicure",
+          "duration": "45 min",
+          "description": "A refreshing foot exfoliation to smooth rough skin, followed by toenail care and gel polish for beautifully soft feet and a polished finish.",
+          "price": 200
         }
+
       ]
     },
-    {
-      "category": "Waxing",
-      "tagline": "Efficient, kind, precise.",
-      "image": "images/wax-a.png",
-      "imageAlt": "Waxing treatment at Billy Aura Wellness Studio",
-      "items": [
-       
-        {
-          "name": "Lip or Chin",
-          "duration": "10 min",
-          "description": "Quick, careful, quietly done.",
-          "price": 50
-        },
-        {
-          "name": "Full Leg",
-          "duration": "30 min",
-          "description": "Smooth from ankle to thigh, with a soothing finish.",
-          "price": 120
-        },
-        {
-          "name": "Underarm",
-          "duration": "15 min",
-          "description": "Fast and gentle, with cooling aftercare.",
-          "price": 50
-        }
-      ]
-    },
+
     {
       "category": "Lashes",
       "tagline": "Yours, only more luminous.",
       "image": "images/billy-eylash.webp",
       "imageAlt": "Eyelash extension treatment at Billy Aura Wellness Studio",
       "items": [
+      
+       
         {
-          "name": "Classic Lash Set",
-          "duration": "90 min",
-          "description": "One extension per natural lash — soft and everyday.",
-          "price": 150
-        },
-        {
-          "name": "Hybrid Set",
-          "duration": "120 min",
-          "description": "A blend of classic and volume for gentle drama.",
-          "price": 185
-        },
-        {
-          "name": "Lash Lift & Tint",
+          "name": "individual Eyelash",
           "duration": "60 min",
-          "description": "A subtle curl and depth without extensions.",
-          "price": 95
+          "description": "eyelash  extensions.",
+          "price": "Coming Soon"
         }
       ]
     }
