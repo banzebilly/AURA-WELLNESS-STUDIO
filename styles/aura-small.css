@@ -727,7 +727,9 @@
 
     #menu{
         font-size:var(--font-size-3xl);
-        padding: var(--space-4);
+        padding: var(--space-6) var(--space-4);
+        
+       
     }
 
     nav a{
