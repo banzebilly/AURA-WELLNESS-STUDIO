@@ -10,19 +10,19 @@
           "name": "Signature Swedish Massage",
           "duration": "60 min",
           "description": "Full-body relief with warm oil and slow, grounding pressure.",
-          "price": 300
+          "price": 350
         },
         {
           "name": "Deep Tissue including",
           "duration": "75 min",
           "description": "Focused release for tight shoulders, hips, and lower back.",
-          "price": 350
+          "price": 400
         },
         {
           "name": "Hot Stone Ritual",
           "duration": "90 min",
           "description": "Basalt stones and aromatic oil — the closest thing to stillness.",
-          "price": 400
+          "price": 450
         },
         {
           "name": "Indian Head Massage",
@@ -43,13 +43,13 @@
           "name": "Glow Facial",
           "duration": "40 min",
           "description": "A refreshing facial with cleansing, gentle exfoliation, a nourishing mask and a relaxing facial massage. Suitable for clients looking for a simple skin refresh.",
-          "price": 300
+          "price": 350
         },
         {
           "name": "Clarifying Facial",
           "duration": "60 min",
           "description": "A deep-cleansing facial focused on oily and congested skin. Includes cleansing, suitable exfoliation, and extractions when appropriate, followed by calming skincare.",
-          "price": 350
+          "price": 400
         },
         {
           "name": "Lumière Signature Facial",
@@ -83,34 +83,34 @@
           "name": "Gel Overlay",
           "duration": "40 min",
           "description": "Nail shaping, cuticle care, and a durable gel overlay for a smooth, glossy finish.",
-          "price": 130
+          "price": 150
         },
         {
           "name": "Gel Manicure",
           "duration": "30 min",
           "description": "Neat nail shaping and long-lasting gel colour for a clean, polished look.",
-          "price": 100
+          "price": 120
         },
         {
           "name": "Gel Pedicure",
           "duration": "30 min",
           "description": " nail shaping, and gel polish for a refreshed finish.",
-          "price": 100
+          "price": 120
         },
         {
           "name": "Signature Acrylic Full Set",
           "description": "Beautifully sculpted nail extensions finished with your choice of gel polish.",
-          "price": 150
+          "price": 180
         },
         {
           "name": "Acrylic Full Set with Nail Art",
           "description": "Custom nail extensions with gel polish and artistic details to express your style.",
-          "price": 180
+          "price": 200
         },
         {
           "name": "Bridal Signature Nail Set",
           "description": "An elegant bridal nail design with extensions, gel polish, and refined finishing touches.",
-          "price": 200
+          "price": 250
         },
         
         {
