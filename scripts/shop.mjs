@@ -2,7 +2,7 @@ import { catalogueReady, ProductStore } from './products.mjs';
 import { money, element, showError } from './utils.mjs';
 import './site.mjs';
 
-// Your shop page code goes below.
+
 
 
 // Get the HTML elements
@@ -118,7 +118,6 @@ function renderProducts() {
     grid.append(...cards);
 }
 
-// Create one product card
 function createProductCard(product) {
     const link = element('a', undefined, 'product-card');
 

@@ -104,13 +104,13 @@ function createCartItem(product) {
     // Quantity controls.
     const controls = createQuantityControls(product);
 
-    // Total price for this cart line.
+   
     const lineTotal = element(
         'p',
         `Line total: ${money(product.price * product.qty)}`
     );
 
-    // Remove this exact cart line.
+    
     const removeButton = element('button', 'Remove', 'remove');
 
     removeButton.type = 'button';
