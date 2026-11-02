@@ -1,25 +1,25 @@
-// // Banze Billy
+// // // Banze Billy
 
-// // get form the form data 
+// // // get form the form data 
 
-const params = new URLSearchParams(window.location.search);
+// const params = new URLSearchParams(window.location.search);
 
-const firstName = params.get("firstName");
-const email = params.get("email");
-const phone = params.get("phone");
-// const services = params.get("services");
-const date = params.get("date");
-const time = params.get("time");
-const notes = params.get("notes");
+// const firstName = params.get("firstName");
+// const email = params.get("email");
+// const phone = params.get("phone");
+// // const services = params.get("services");
+// const date = params.get("date");
+// const time = params.get("time");
+// const notes = params.get("notes");
 
-document.querySelector("#firstName").textContent = firstName || "Not provided";
-document.querySelector("#email").textContent = email || "Not provided";
-document.querySelector("#phone").textContent = phone || "Not provided";
-// document.querySelector(".service").textContent = service ;
-document.querySelector("#service").textContent =  params.get("service") || "Not provided";
-document.querySelector("#date").textContent = date || "Not provided";
-document.querySelector("#time").textContent = time || "Not provided";
-document.querySelector("#notes").textContent = notes ;
+// document.querySelector("#firstName").textContent = firstName || "Not provided";
+// document.querySelector("#email").textContent = email || "Not provided";
+// document.querySelector("#phone").textContent = phone || "Not provided";
+// // document.querySelector(".service").textContent = service ;
+// document.querySelector("#service").textContent =  params.get("service") || "Not provided";
+// document.querySelector("#date").textContent = date || "Not provided";
+// document.querySelector("#time").textContent = time || "Not provided";
+// document.querySelector("#notes").textContent = notes ;
 
 
 
