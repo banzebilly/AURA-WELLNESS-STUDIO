@@ -118,6 +118,7 @@ function renderProducts() {
     grid.append(...cards);
 }
 
+ 
 function createProductCard(product) {
     const link = element('a', undefined, 'product-card');
 

@@ -30,6 +30,12 @@
         "subtitle": "Massage",
         "image": "images/facial-1.webp"
     },
+     {
+        "category": "nails",
+        "title": "coffin nails",
+        "subtitle": "Nails",
+        "image": "images/nail-11.webp"
+    },
    
     {
         "category": "waxing",
@@ -80,10 +86,22 @@
         "subtitle": "massage",
         "image": "images/hotstone.png"
     },
+     {
+        "category": "nails",
+       
+        "subtitle": "Nails",
+        "image": "images/nail-10.webp"
+    },
     {
         "category": "waxing",
         "title": "under arms Wax",
         "subtitle": "Waxing",
         "image": "images/wax-a.png"
+    },
+     {
+        "category": "nails",
+        "title": "coffin nails",
+        "subtitle": "Nails",
+        "image": "images/nail-8.webp"
     }
 ]

@@ -1254,6 +1254,10 @@ section {
     padding-right: 2rem;
 }
 
+.testimonial-stars{
+    color: var(--accent);
+}
+
 .services-menu .info .inner-data .data h5 {
     font-size: medium;
 
