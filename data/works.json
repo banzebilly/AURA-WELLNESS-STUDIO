@@ -27,8 +27,8 @@
     {
         "category": "facial",
         "title": "facial",
-        "subtitle": "Massage",
-        "image": "images/facial-1.webp"
+        "subtitle": "mask",
+        "image": "images/facial-b.png"
     },
      {
         "category": "nails",
@@ -54,7 +54,7 @@
         "category": "facial",
         "title": "skin care",
         "subtitle": "Facial",
-        "image": "images/facial-5.webp"
+        "image": "images/facial-l.png"
     },
     {
         "category": "nails",
@@ -79,6 +79,12 @@
         "title": "coffin nails",
         "subtitle": "Nails",
         "image": "images/nails-b.webp"
+    },
+     {
+        "category": "facial",
+        "title": "skin care",
+        "subtitle": "Facial",
+        "image": "images/facial-m.png"
     },
     {
         "category": "massage",
